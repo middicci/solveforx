@@ -6,9 +6,9 @@ public class MazeSol {
     void printSolution(int sol[][]) {
         for(int i = 0; i < N ; i++) {
             for(int j=0; j < N ; j++){
-                System.out.println(sol[i][j]);
+                System.out.println(" " + sol[i][j] + " ");
             }
-            System.out.println(" ");
+            System.out.println("\n");
         }
     }
     
