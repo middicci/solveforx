@@ -20,7 +20,7 @@ public class Change {
     public static void main(String args[]) {
        Change c = new Change();
        
-       int arr[] = {1, 2, 3};
+       int arr[] = { 1, 2, 3 };
        
        int m = arr.length;
        
