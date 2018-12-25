@@ -26,7 +26,7 @@
     void printGivenLevelOrder(Node root, int l){
         if (root == null)
             return;
-        if( l == 1 )
+        if(l == 1)
             System.out.println(root.data);
         
         else if(l > 1) {

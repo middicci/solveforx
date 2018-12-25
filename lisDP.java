@@ -22,8 +22,7 @@ public class LIS {
                 max = l[i];
         }
         
-        return max;
-        
+        return max;        
     }
     
     public static void main(String args[]) {
