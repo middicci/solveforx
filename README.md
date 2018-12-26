@@ -1,1 +1,1 @@
-# solveforx
+# solvefor(x)
