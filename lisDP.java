@@ -4,7 +4,7 @@ public class LIS {
         if(n==1)
             return 1;
         
-        int l[] = new int[n];
+        int l[] = new int[n+1];
         int max = 0;
         
         for(int i=0; i<n; i++){

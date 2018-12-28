@@ -12,18 +12,17 @@ public class LSUB {
                     l[i][j] = 0;
                 else if(X[i-1] == Y[j-1]){
                     l[i][j] = 1 + l[i-1][j-1];
-                    result = Integer.max(result, l[i][j]);
                 }
                 else
-                    l[i][j] = 0;
+                    l[i][j] = Integer.max(l[i-1][j], l[i][j-1]);
             }
         
-        return result;
+        return l[m][n];
     }
     
     public static void main(String args[]) {
         String s1 = "tumeromole";
-        String s2 = "meromole";
+        String s2 = "mer";
         
         LSUB ls = new LSUB();
         int n = ls.lsub(s1.toCharArray(), s2.toCharArray(), s1.length(), s2.length());
